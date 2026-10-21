@@ -8,9 +8,12 @@ int main(void) {
      とする．また，xの値はキーボードからdoubleとして入力するものとする．
      これらの値すべてをdouble型として計算した計算結果のa(桁数指定なし)を表示するようなプログラムとせよ．
      */
-    
+    double r = 4.0;
+double pi = 3.141592;
+double x, a;
 
-
-     
+scanf("%lf", &x);
+a = 360.0 * x / (pi * r);
+printf("%f", a);
     return 0;
 }
